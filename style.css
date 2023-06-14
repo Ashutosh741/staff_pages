@@ -1,0 +1,44 @@
+/* .table-responsive > .table > thead > tr > th, .table-responsive > .table > tbody > tr > th, .table-responsive > .table > tfoot > tr > th, .table-responsive > .table > thead > tr > td, .table-responsive > .table > tbody > tr > td, .table-responsive > .table > tfoot > tr > td {
+    white-space: nowrap;
+} */
+
+td ,th{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+/* tr td:nth-last-child(1){
+ white-space: inherit;
+} */
+
+.thead {
+    background: linear-gradient( rgba(26, 23, 34, 1) 100%, rgba(10, 1, 31, 1) 90%)!important;
+} 
+
+thead {
+    /* background-color: #;
+    color: white; */
+    /* --bs-table-bg: #006DCC; */
+    --bs-table-bg:linear-gradient( rgba(26, 23, 34, 1) 100%, rgba(10, 1, 31, 1) 90%)!important;
+}
+
+tbody td {
+    background-color: #EEEEEE;
+}
+
+.table-heading{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDD;
+}
+
+.stage-1 .form-group{
+    padding : 10px 0;
+}
+
+.stage-1 label{
+    padding-bottom: 10px;
+    /* color : #0ACF83; */
+    /* color : #1A1722; */
+    color : #0A011F;
+}
